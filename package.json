@@ -20,8 +20,8 @@
     "start": "next start -p $PORT",
     "build:css": "tailwind build styles/styles.css -o dist/style.css",
     "dev": "next",
-    
-    "build": "next build"
+    "build": "next build",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm run build "
    
   },
   "keywords": [],
