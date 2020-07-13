@@ -7,7 +7,7 @@ import '../public/app.css'
 const _app = ({ Component }) => (
 
     
-    <div className='flex  flex-col text-gray-600  w-full justify-center  '>
+    <div className='flex  flex-col text-gray-600  w-full justify-center items-center '>
       <Component />
     </div>
 

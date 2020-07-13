@@ -22,26 +22,24 @@ const index = () => {
   };
 
   return (
-    <div className='flex flex-col justify-center items-center py-4'>
-      <div className=' max-w-5xl w-full px-4 '>
+    <div className='flex flex-col justify-center items-center px-2  py-4'>
+      <div className=' max-w-5xl w-full '>
         <h1 className='font-bold text-gray-900'>
           <pre className='text-center text-2xl sm:text-6xl '>
             <code>{`</🖥/>`}</code>
           </pre>
           {/* technologies */}
-          <div className='flex justify-between items-center'>
-            <div className=' bg-blue-200 rounded p text-blue-800 w-32 text-center border border-blue-800 '>
+          <div className='flex justify-between items-center '>
+            <div className=' bg-blue-200 rounded p text-blue-800 w-30 text-center border border-blue-800 '>
               devop
             </div>
-            <div className=' bg-orange-200 rounded p text-orange-800 w-32 text-center border border-orange-800 '>
+            <div className=' bg-orange-200 rounded p text-orange-800 w-30 text-center border border-orange-800 '>
               docker
             </div>
-            <div className=' bg-purple-200 rounded p text-purple-800 w-32 text-center border border-purple-800'>
-              kubernetes
+            <div className=' bg-purple-200 rounded p text-purple-800 w-30 text-center border border-purple-800'>
+              kub8
             </div>
-            <div className=' bg-red-200 rounded p text-red-800 w-32 text-center border border-red-800'>
-              programming
-            </div>
+           
           </div>
         </h1>
 
